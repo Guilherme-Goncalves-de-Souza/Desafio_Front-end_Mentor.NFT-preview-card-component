@@ -23,7 +23,7 @@ Desktop design:            |  Active states:           |  Mobile design:
 
 <br>
 
-<a href = ""> Veja o projeto aqui. </a>
+<a href = "https://guilherme-goncalves-de-souza.github.io/Desafio_Front-end_Mentor.NFT-preview-card-component/"> Veja o projeto aqui. </a>
 
 
 
