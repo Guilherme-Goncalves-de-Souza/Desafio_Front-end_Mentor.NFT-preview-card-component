@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+p{
+    color: rgb(106,126,159);
+}
+
+main{
+    width: 21.87rem;
+    height: 37.18rem;
+    background-color: hsl(216, 50%, 16%);
+
+    padding: 24px;
+    border-radius: 10px;
+
+    box-shadow: 0px 5px 50px rgb(12,23,41);
+    
+}
+
+
+main .forviewer{
+    position: absolute;
+    width: 18.75rem;
+    height: 18.75rem;
+
+    border-radius: 12px;
+    background-color: hsl(178, 100%, 50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main img.nft{
+    position: relative;
+    width: 18.75rem;
+    height: 18.75rem;
+
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+main img.nft:hover{
+    opacity: 0.3;
+    transition-property: opacity;
+    transition-duration: 1s;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+
+main h1{
+    font-size: 21.7px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+main p:nth-child(4){
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+main .valuenft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+main .valuenft .left-content,
+.right-content{
+    display: flex;
+    gap: 5px;
+
+    margin-bottom: 25px;
+}
+
+main .valuenft .right-content img{  
+    width: 20px;
+    height: 20px;
+}
+
+main .valuenft .left-content p{
+    color: hsl(178, 100%, 50%);
+}
+
+.line{
+    background-color: hsl(215, 32%, 27%);
+    width: 100%;
+    height: 1px;
+
+    margin-bottom: 15px;
+}
+
+main .createby{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+main .createby img{
+    border: 1.5px solid white;
+    border-radius: 99px;
+    width: 30px;
+    height: 30px;
+}
+
+main .createby strong{
+    color: hsl(0, 0%, 100%);
+}
+
+main h1:hover,
+.createby strong:hover
+{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+    transition-property: color;
+    transition-duration: 1.5s;
+}
